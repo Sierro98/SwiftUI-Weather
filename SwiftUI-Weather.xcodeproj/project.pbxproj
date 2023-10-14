@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0777982ADAE6C800702E80 /* SubWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0777972ADAE6C800702E80 /* SubWeatherView.swift */; };
 		AE83EA2F2AD973BB00761A47 /* SwiftUI_WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83EA2E2AD973BB00761A47 /* SwiftUI_WeatherApp.swift */; };
 		AE83EA312AD973BB00761A47 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE83EA302AD973BB00761A47 /* ContentView.swift */; };
 		AE83EA332AD973BC00761A47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE83EA322AD973BC00761A47 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0777972ADAE6C800702E80 /* SubWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubWeatherView.swift; sourceTree = "<group>"; };
 		AE83EA2B2AD973BB00761A47 /* SwiftUI-Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE83EA2E2AD973BB00761A47 /* SwiftUI_WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_WeatherApp.swift; sourceTree = "<group>"; };
 		AE83EA302AD973BB00761A47 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE0777962ADAE6AF00702E80 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE83EA302AD973BB00761A47 /* ContentView.swift */,
+				AE0777972ADAE6C800702E80 /* SubWeatherView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AE83EA222AD973BB00761A47 = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +62,8 @@
 		AE83EA2D2AD973BB00761A47 /* SwiftUI-Weather */ = {
 			isa = PBXGroup;
 			children = (
+				AE0777962ADAE6AF00702E80 /* Views */,
 				AE83EA2E2AD973BB00761A47 /* SwiftUI_WeatherApp.swift */,
-				AE83EA302AD973BB00761A47 /* ContentView.swift */,
 				AE83EA322AD973BC00761A47 /* Assets.xcassets */,
 				AE83EA342AD973BC00761A47 /* Preview Content */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0777982ADAE6C800702E80 /* SubWeatherView.swift in Sources */,
 				AE83EA312AD973BB00761A47 /* ContentView.swift in Sources */,
 				AE83EA2F2AD973BB00761A47 /* SwiftUI_WeatherApp.swift in Sources */,
 			);
